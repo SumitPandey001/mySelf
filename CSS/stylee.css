@@ -1,0 +1,171 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Montaga', serif;
+
+}
+.image-div{
+  position: fixed;
+  height: 200px;
+  width:50px;
+  display: inline-block;
+  top:0;
+  left: 95%;
+}
+.smedia{
+  height: 35px;
+  display: inline-block;
+  padding: 5px;
+
+  transition: 0.2s;
+}
+.smedia:hover{
+
+  border-color: #30e3ca;
+  border-radius: 5%;
+  height: 40px;
+}
+
+h1{
+  position: relative;
+  margin-top: 50px;
+  top: 30px;
+  font-family: 'Great Vibes', c;
+  font-size: 90px;
+  color: #11999e;
+
+}
+h2{
+  font-family: 'Asul', sans-serif;
+  color: #11999e;
+}
+h3{
+font-family: 'Asul', sans-serif;
+  color: #11999e;
+}
+
+hr{
+
+  border-style:  none;
+  border-top-style: dotted;
+  border-color: #C449C2;
+  border-width:  10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  width: 10%
+}
+
+.top-container{
+  background-color: #e4f9f5;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  position: relative;
+
+
+}
+.text{
+  position: relative;
+  margin-top: 0;
+  bottom: 20px;
+  font-size: 30px;
+  color: #11999e;
+  font-weight: normal;
+
+}
+
+.paddingtext{
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+
+
+
+.centre{
+  text-align: center;
+
+}
+
+.bottom-cloud{
+  position: absolute;
+    left: 20%;
+  top : 300px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 30%;
+  top: 100px;
+}
+
+.padding{
+  padding-top:30px;
+  padding-bottom: 30px;
+  line-height: 2;
+
+}
+.text-padding{
+  width: 30%;
+  margin: auto;
+}
+
+.hr2{
+  border-style: none;
+  border-top: solid;
+  border-width: medium;
+  color: #fb9300;
+}
+.padding2{
+  padding-top:30px;
+  padding-bottom: 10px;
+
+}
+
+.skill-image{
+  height: 200px;
+  transition: 0.3s;
+}
+.skill-image:hover{
+  height: 220px;
+}
+
+.button{
+  height: 50px;
+  width:130px;
+  border-radius: 5%;
+  border-color:#11999e;
+  border-width: medium;
+  font-size: 20px;
+  color: #11999e;
+
+
+  font-family: 'Asul', sans-serif;
+  background-color: #e4f9f5;
+  transition: 0.5s;
+
+}
+
+.button:hover{
+  background-color: #11999e;
+  color:white;
+}
+
+.colour{
+  background-color: #e4f9f5;
+}
+
+.lp{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.colour2{
+  background-color: #00adb5;
+}
+
+.end{
+  font-family: monospace;
+  font-size: 15px;
+  color: white;
+
+}

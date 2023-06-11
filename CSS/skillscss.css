@@ -1,0 +1,171 @@
+/*font-family: 'Lora', serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Style Script', cursive;*/
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+.taskbar{
+
+  position: relative;
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  top: 10px;
+  left: 42%;
+
+
+}
+
+.header{
+
+
+  background-color: #E1FFC2;
+  position: relative;
+  padding-bottom: 100px;
+
+
+}
+.htext{
+  margin-top: 10px;
+  font-size: 25px;
+  color: #25A55F;
+}
+
+hr{
+  margin:30px;
+  border-style:none ;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 10%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 45%;
+  color: #54E346;
+
+}
+
+h1{
+  font-family: 'Style Script', cursive;
+  font-size: 120px;
+  font-weight: lighter;
+  color: #54E346;
+  position: relative;
+  margin-top: 0;
+  padding-top: 50px;
+  margin-bottom: 1px;
+  height: 125px;
+
+
+}
+h2{
+  font-size: 35px;
+  margin-bottom: 10px;
+  color:#01937C;
+  transition: .3s;
+
+}
+h2:hover{
+  font-size: 40px;
+}
+.center{
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.skillblock1{
+  text-align: left;
+  padding-right: 40%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #9BDF46;
+  padding-left: 10px;
+  font-size: 17px;
+  border-radius: 25px;
+
+}
+.skillblock2{
+  text-align: right;
+  padding-left: 40%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 17px;
+  padding-right: 10px;
+  background-color: #EDFFEC;
+  border-radius: 25px;
+
+}
+.skillhead{
+  font-weight: bolder;
+}
+img{
+  height: 30px;
+  width: 30px;
+  transition: .3s ;
+
+}
+img:hover{
+  height: 35px;
+  width: 35px;
+}
+.midhr{
+  margin:30px;
+  border-style:none ;
+  border-top-style: solid;
+  border-width: 4px;
+  width: 20%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 40%;
+  color: #25A55F;
+
+}
+button{
+  position: relative;
+
+  width: 175px;
+  height: 50px;
+  border-radius: 5px;
+  border-width: thin;
+  border-color: #346473;
+  font-size: 20px;
+  font-family: 'Lora', serif;
+  background-color: #EDFFEC;
+  color: #346473;
+  transition: 0.3s;
+  cursor: pointer;
+
+}
+button:hover{
+
+
+    font-size: 25px;
+    background: linear-gradient(90deg, #346473 ,#346473, #25A55F, #25A55F);
+    color: #EDFFEC;
+    background-size: 150%;
+    border-color: #ffffff;
+}
+
+.home{
+  height: 45px;
+  width: 45px;
+  transition: .3s;
+  display: inline-block;
+  position: fixed;
+}
+.home:hover{
+  height: 50px;
+  width: 50px;
+}
+.footer{
+  height: 100px;
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #346473;
+  color: #FDFAF6;
+
+
+}
